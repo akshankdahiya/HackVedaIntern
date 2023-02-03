@@ -1,0 +1,27 @@
+
+public class BinaryTree {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Node node = new Node(5);
+		node.left = new Node(4);
+		node.right = new Node(3);
+
+	}
+	
+	static class Node{
+		
+		int value;
+		
+		Node left, right;  //left and right pointers
+		
+		Node(int value){
+			this.value = value;
+			
+			left = null;
+			right =  null;
+		}
+	}
+
+}

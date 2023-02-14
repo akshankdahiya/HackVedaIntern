@@ -1,0 +1,44 @@
+
+public class MaxHeartRate {
+	
+	public String maxRate;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println(maxHearRate(30));
+
+	}
+	
+	public static int maxHearRate(int age) {
+		int result = 0;
+		
+		result = 220 - age;
+		
+		return result;
+	}
+}
+
+
+//override using extends
+
+
+
+public class BMIMachine extends MaxHeartRate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println(maxHearRate(30));
+
+	}
+	
+	public static int maxHearRate(int age) {
+		int result = 0;
+		
+		result = 220 - age;
+		
+		return result;
+	}
+
+}
